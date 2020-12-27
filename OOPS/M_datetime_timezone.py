@@ -11,7 +11,6 @@ print(type(currentdatetime))
 print(currentdatetime.day)
 print(currentdatetime.month)
 print(currentdatetime.year)
-
 print(currentdatetime.hour)
 print(currentdatetime.minute)
 print(currentdatetime.second)
