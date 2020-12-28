@@ -14,7 +14,7 @@ class Python_students:
 id = int(input('Enter student id: '))
 name = input('Enter student name: ')
 
-
+# object of class
 obj = Python_students()
 obj.get_stufdents(id, name)
 obj.get_stufdents()
