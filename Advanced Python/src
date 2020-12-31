@@ -1,0 +1,102 @@
+# URL, it should be /logout, so let's head into main/mysite/urls.py and add a path for:
+
+from django.urls import path
+from . import views
+
+
+app_name = 'main'  # here for namespacing of urls.
+
+urlpatterns = [
+    path("", views.homepage, name="homepage"),
+    path("register/", views.register, name="register"),
+    path("logout", views.logout_request, name="logout"),
+]
+
+#Go to: mysite/main/views.py
+...
+  def logout_request(request):
+    logout(request)
+    messages.info(request, "Logged out successfully!")
+    return redirect("main:homepage")
+  ...
+from django.contrib.auth.forms import UserCreationForm, AuthenticationForm
+
+...
+
+def login_request(request):
+    form = AuthenticationForm()
+    return render(request = request,
+                  template_name = "main/login.html",
+                  context={"form":form})
+
+ #Next, let's work on the html page: mysite/main/templates/main/login.html
+ {% extends 'main/header.html' %}
+
+{% block content %}
+
+    <div class="container">
+        <form method="POST">
+        {% csrf_token %}
+        {{form.as_p}}
+            <button style="background-color:#F4EB16; color:blue" class="btn btn-outline-info" type="submit">Login</button>
+        </form>
+        Don't have an account? <a href="/register" target="blank"><strong>register here</strong></a>!
+    </div>
+{% endblock %}
+
+#add a link in urls.py:
+
+    path("login", views.login_request, name="login"),
+
+#now if we go to http://127.0.0.1:8000/login, we can see a login page.
+#Okay, now if we go to http://127.0.0.1:8000/login, we can see a login page. Awesome, except that, just like our registration page, nothing will happen unless we handle for the POST request, which is where the meat of this page will actually be:
+#Go to mysite/main/views.py
+def login_request(request):
+    if request.method == 'POST':
+        form = AuthenticationForm(request=request, data=request.POST)
+        if form.is_valid():
+            username = form.cleaned_data.get('username')
+            password = form.cleaned_data.get('password')
+            user = authenticate(username=username, password=password)
+            if user is not None:
+                login(request, user)
+                messages.info(request, f"You are now logged in as {username}")
+                return redirect('/')
+            else:
+                messages.error(request, "Invalid username or password.")
+        else:
+            messages.error(request, "Invalid username or password.")
+    form = AuthenticationForm()
+    return render(request = request,
+                    template_name = "main/login.html",
+                    context={"form":form})
+#With that, go ahead and try the login functionality and you should find that you're all set.
+#Finally, let's change one last thing about our user registration. At the moment, we're not collecting the user's email, which could turn out to be fairly problematic later for things like forgotten passwords. How can we change this? We could either completely build our own form, or we could just modify the Django one a bit. I am going to opt to just extend the Django form. To do this, create a new file: mysite/main/forms.py:
+
+forms.py
+from django import forms
+from django.contrib.auth.forms import UserCreationForm
+from django.contrib.auth.models import User
+
+class NewUserForm(UserCreationForm):
+    email = forms.EmailField(required=True)
+
+    class Meta:
+        model = User
+        fields = ("username", "email", "password1", "password2")
+
+    def save(self, commit=True):
+        user = super(NewUserForm, self).save(commit=False)
+        user.email = self.cleaned_data["email"]
+        if commit:
+            user.save()
+        return user
+#Then, inside of our views.py, we instead need to import our NewUserForm
+
+#got to: views.py
+from .forms import NewUserForm
+#Then replace the two instances of UserCreationForm with NewUserForm in the register function. Now make sure you're logged out and register a new user. This time, there will be a password field.
+
+#We didn't need to update any models because we're using the Django User model, which already had an email field.
+
+#Next, if we were to actually add full-length tutorials, we'd be in some trouble, because our home page would be quickly filled up. We'll be talking about how to handle for this by using foreign keys to point to tutorial series and categories.
