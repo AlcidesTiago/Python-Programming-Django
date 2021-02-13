@@ -14,63 +14,181 @@
 </head>
 
 <body>
-    <h1>Registration Form</h1>
-    <form>
-        Full Name : <input type="text" id="fullname" name="fullname">
-        <br><br> Address : <textarea name="address" id="address" cols="50" rows="1"></textarea>
-        <br><br> Gender :
-        <input type="radio" id="rdo1" name="rdo" value="m">Male
-        <input type="radio" id="rdo2" name="rdo" value="f">Female
-        <br><br> Email : <input type="email" name="em1" id="em1">
-        <br><br> Tel : <input type="int" id="int1" name="int2" value="">
-        <br><br> State :
-        <select name="state" id="state"> <option value="">--select state</option>
-            <option value="Guj">Gujarat</option>
-            <option value="Goa">Goa</option>
-            <option value="Ker">Kerala</option>
-            <option value="Andhra Prad">Andhra Pradesh</option>
-            <option value="Arul Prad">Arunachal Pradesh</option>
-            <option value="Mahar">Maharashtra</option>
-            <option value="Punj">Punjab</option>
-            <option value="Raja">Rajasthan</option>
-            <option value="Utt Prad">Uttar Pradesh</option>
-            <option value="W Ben">West Bengal</option>
-            <option value="T N">Tamil Nadu</option>
-            <option value="	Mizoram">Mizorami</option>
-            <option value="Uttarakhand">Uttarakhand</option>
-        </select>
-        <br><br> City :
-        <select name="city" id="city"> <option value="">--select city</option>
-            <option value="Ahmedabad">Ahmedabad</option>
-            <option value="Panaji">Panaji</option>
-            <option value="Thiruvananthapuram">Thiruvananthapuram</option>
-            <option value="Hyderabad">Hyderabad</option>
-            <option value="Itanagar">Itanagar</option>
-            <option value="Mumbai">Mumbai</option>
-            <option value="Chandigarh">Chandigarh</option>
-            <option value="Jaipur">Jaipur</option>
-            <option value="Telangana">Telangana</option>
-            <option value="Lucknow">Lucknow</option>
-            <option value="Kolkata">Kolkata</option>
-            <option value="Chennai">Chennai</option>
-            <option value="Aizawl">Aizawl</option>
-            <option value="Dehradun">Dehradun/Gairsain</option>
-            <option value="Gandhinagar">Gandhinagar</option>
-            <option value="Delhi">Delhi</option>
-            <option value="Su">Surat</option>
-            <option value="Raj">Rajkot</option>
-        </select>
-        <br><br> Education : <input type="checkbox" id="chk1" name="chk1" value="ssc">SSC
-        <input type="checkbox" id="chk2" name="chk2" value="be">BE
-        <input type="checkbox" id="chk3" name="chk3" value="diploma">DIPLOMA
-        <input type="checkbox" id="chk4" name="chk4" value="hsc">HSC
-        <br><br> File : <input type="file" id="f" name="f">
-        <br><br>
-        <input type="button" id="btn" name="btn" value="Button">
-        <input type="submit" id="submit" name="submit" value="Submit">
-        <input type="reset" id="reset" name="reset" value="Cancel">
 
+
+    <div class="topnav">
+        <a class="active" href="#home">Home</a>
+        <a href="#news">News</a>
+        <a href="#profile">Profile</a>
+        <a href="#experiences">Experiences</a>
+        <a href="#abilities">Abilities</a></li>
+        <a href="#projects">Projects</a></li>
+        <a href="#contact">Contact</a>
+        <a href="about.html">About</a>
+    </div>
+
+    <h1>Registration Form</h1>
+    <hr>
+    <form>
+        <table>
+
+            <tr>
+                <th> First Name </th>
+                <td><input type="text" id="fullname" name="fullname" size="50" placeholder="Your first name.."> <label for="datemin">    (Max 50 characters allowed)</label></td>
+            </tr>
+
+            <tr>
+                <th><br> Last Name</th>
+                <td><input type="text" id="last_name" name="last_name" size="50" placeholder="Your last name.."> <label for="datemin">(Max 50 characters allowed)</label></td>
+            </tr>
+            <tr>
+                <th><br> Email ID </th>
+                <td><input type="email" name="em1" id="em1" size="50" placeholder="Your email id.."></td>
+            </tr>
+
+            <tr>
+                <th><br> Mobile Number </th>
+                <td><input type="tel" id="phone" name="phone" value="" size="10"><label for="mn">   (10 digits allowed)</label></td>
+            </tr>
+            <p></p>
+            <tr>
+
+                <th><br> Address </th>
+                <td><textarea name="address" id="address" cols="52" rows="1"></textarea></td>
+            </tr>
+            <tr>
+                <th><br> Gender </th>
+                <td><input type="radio" id="rdo1" name="rdo" value="m">Male
+                    <input type="radio" id="rdo2" name="rdo" value="f">Female</td>
+            </tr>
+            <tr>
+                <th><br> Date of Birth (DOB)</th>
+                <td><input type="Date" name="date" id="date" value="DataofBirth"></td>
+            </tr>
+            <tr>
+
+            </tr>
+            <th><br> City</th>
+            <td><select name="city" id="city"> <option value="">--select city</option>
+                <option value="Ahmedabad">Ahmedabad</option>
+                <option value="Panaji">Panaji</option>
+                <option value="Thiruvananthapuram">Thiruvananthapuram</option>
+                <option value="Hyderabad">Hyderabad</option>
+                <option value="Itanagar">Itanagar</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Chandigarh">Chandigarh</option>
+                <option value="Jaipur">Jaipur</option>
+                <option value="Telangana">Telangana</option>
+                <option value="Lucknow">Lucknow</option>
+                <option value="Kolkata">Kolkata</option>
+                <option value="Chennai">Chennai</option>
+                <option value="Aizawl">Aizawl</option>
+                <option value="Dehradun">Dehradun/Gairsain</option>
+                <option value="Gandhinagar">Gandhinagar</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Su">Surat</option>
+                <option value="Raj">Rajkot</option>
+            </select><label for="city">  (Max 50 characters allowed)</label></td>
+            <tr>
+                <th><br> Pin Code</th>
+                <td><input type="digits" id="digit" name="number" value="" size="6"><label for="pincode">   (Max 6 Number allowed)</label></td>
+            </tr>
+
+            <tr>
+
+                <th><br> State</th>
+                <td><select name="state" id="state"> <option value="">--select state</option>
+                    <option value="Guj">Gujarat</option>
+                    <option value="Goa">Goa</option>
+                    <option value="Ker">Kerala</option>
+                    <option value="Andhra Prad">Andhra Pradesh</option>
+                    <option value="Arul Prad">Arunachal Pradesh</option>
+                    <option value="Mahar">Maharashtra</option>
+                    <option value="Punj">Punjab</option>
+                    <option value="Raja">Rajasthan</option>
+                    <option value="Utt Prad">Uttar Pradesh</option>
+                    <option value="W Ben">West Bengal</option>
+                    <option value="T N">Tamil Nadu</option>
+                    <option value="	Mizoram">Mizorami</option>
+                    <option value="Uttarakhand">Uttarakhand</option>
+                </select><label for="state">  (Max 50 characters allowed)</label></td>
+
+            </tr>
+
+            <th><br> Country</th>
+            <td><select name="state" id="state"> <option value="">--select country</option>
+                <option value="ANG">Angola</option>
+                <option value="Ind">India</option>
+                <option value="Afg">Afghanistan</option>
+                <option value="Alg">Algeria</option>
+                <option value="Argentina">Argentina</option>
+                <option value="Br">Brazil</option>
+                <option value="SA">South Africa</option>
+                <option value="UAE">United Arab Emirates</option>
+                <option value="Swed">Sweden</option>
+                <option value="USA">United States of America</option>
+                <option value="UK">United Kingdom</option>
+                <option value="Sing">Singapore</option>
+                <option value="Qatar">Qatar</option>
+                <option value="Pt">Portugal</option>
+                <option value="Can">Canada</option>
+                </select></td>
+            <tr>
+                <th> Hobbies </th>
+                <td><br><input type="checkbox" id="chk1" name="chk" value="c">Coding
+                    <input type="checkbox" id="chk2" name="chk" value="r">Reading
+                    <input type="checkbox" id="chk3" name="chk" value="p">Play Football
+                    <input type="checkbox" id="chk4" name="chk" value="m">Listing to Music
+                    <p><input type="checkbox" id="chk5" name="chk" value="t">Others <textarea name="textarea" size="50" id="textarea" cols="30" rows="1" placeholder="Ex- Teaching"></textarea><label for="state">  (Max 50 characters allowed)</label><br><br><br></td>
+            </tr>
+            <tr>
+                <th><br> Qualification</th>
+                <td> <input type="checkbox" id="chk1" name="chk1" value="hs">High School(10th)
+                    <p><input type="checkbox" id="chk2" name="chk2" value="hs2">High School(12th)</p>
+                    <p><input type="checkbox" id="chk3" name="chk3" value="g">Graduation(Bachelors)</p>
+                    <p><input type="checkbox" id="chk4" name="chk4" value="pg">Pos Graduation (Masters)</p>
+                    <p><input type="checkbox" id="chk5" name="chk5" value="phd">Phd</p>
+                    <p><input type="checkbox" id="chk6" name="chk6" value="be">BE</p>
+                    <p><input type="checkbox" id="chk7" name="chk7" value="be">BE <br><br><br></p>
+                </td>
+            </tr>
+            <tr>
+                <th><br> Courses Applied For</th>
+                <td> <input type="checkbox" id="chk1" name="chk1" value="hs">BCA(Bachelors of Computer Applications)
+                    <p><input type="checkbox" id="chk2" name="chk2" value="hs2">B.Com(Bachelors of Commerce))</p>
+                    <p><input type="checkbox" id="chk3" name="chk3" value="g">B.Sc(Bachelors of Science)</p>
+                    <p><input type="checkbox" id="chk4" name="chk4" value="pg">BA(Bachelors of Arts)</p>
+                    <p><input type="checkbox" id="chk5" name="chk5" value="phd">MCA(Masters of Computer Applications</p>
+                    <p><input type="checkbox" id="chk6" name="chk6" value="be">M.Com(Masters of Commerce)</p>
+                    <p><input type="checkbox" id="chk7" name="chk7" value="be">N.Sc(Masters of Science</p>
+                    <p><input type="checkbox" id="chk7" name="chk7" value="be">MA(Masters of Arts</p>
+                </td>
+            </tr>
+            <tr>
+                <th><br> Upload your Aadhar ID </th>
+                <td><input type="file" id="f" name="f"></td>
+            </tr>
+            <tr>
+                <td><br><br></td>
+            </tr>
+            <tr>
+                <th><br></th>
+                <td><input type="submit" id="submit" name="submit" value="Submit">
+                    <input type="reset" id="reset" name="reset" value="Reset"></td>
+            </tr>
+
+        </table>
     </form>
+
 </body>
+
+<div id="page-container">
+    <div id="content-wrap">
+        <!--All other page content-->
+    </div>
+    <footer id="footer">
+        <p>© 2021 iAFT. All rights reserved.</p>
+    </footer>
+</div>
 
 </html>
