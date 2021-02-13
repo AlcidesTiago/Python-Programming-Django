@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <meta http-equiv="refresh" content="15"> -->
+    <meta name="description" content="html forms ">
+    <meta name="keywords" content="HTML">
+    <meta name="author" content="Alcides Fernando Tiago">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Forms</title>
+</head>
+
+<body>
+    <h1>Registration Form</h1>
+    <form>
+        Full Name : <input type="text" id="fullname" name="fullname">
+        <br><br> Address : <textarea name="address" id="address" cols="50" rows="1"></textarea>
+        <br><br> Gender :
+        <input type="radio" id="rdo1" name="rdo" value="m">Male
+        <input type="radio" id="rdo2" name="rdo" value="f">Female
+        <br><br> Email : <input type="email" name="em1" id="em1">
+        <br><br> Tel : <input type="int" id="int1" name="int2" value="">
+        <br><br> State :
+        <select name="state" id="state"> <option value="">--select state</option>
+            <option value="Guj">Gujarat</option>
+            <option value="Goa">Goa</option>
+            <option value="Ker">Kerala</option>
+            <option value="Andhra Prad">Andhra Pradesh</option>
+            <option value="Arul Prad">Arunachal Pradesh</option>
+            <option value="Mahar">Maharashtra</option>
+            <option value="Punj">Punjab</option>
+            <option value="Raja">Rajasthan</option>
+            <option value="Utt Prad">Uttar Pradesh</option>
+            <option value="W Ben">West Bengal</option>
+            <option value="T N">Tamil Nadu</option>
+            <option value="	Mizoram">Mizorami</option>
+            <option value="Uttarakhand">Uttarakhand</option>
+        </select>
+        <br><br> City :
+        <select name="city" id="city"> <option value="">--select city</option>
+            <option value="Ahmedabad">Ahmedabad</option>
+            <option value="Panaji">Panaji</option>
+            <option value="Thiruvananthapuram">Thiruvananthapuram</option>
+            <option value="Hyderabad">Hyderabad</option>
+            <option value="Itanagar">Itanagar</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Chandigarh">Chandigarh</option>
+            <option value="Jaipur">Jaipur</option>
+            <option value="Telangana">Telangana</option>
+            <option value="Lucknow">Lucknow</option>
+            <option value="Kolkata">Kolkata</option>
+            <option value="Chennai">Chennai</option>
+            <option value="Aizawl">Aizawl</option>
+            <option value="Dehradun">Dehradun/Gairsain</option>
+            <option value="Gandhinagar">Gandhinagar</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Su">Surat</option>
+            <option value="Raj">Rajkot</option>
+        </select>
+        <br><br> Education : <input type="checkbox" id="chk1" name="chk1" value="ssc">SSC
+        <input type="checkbox" id="chk2" name="chk2" value="be">BE
+        <input type="checkbox" id="chk3" name="chk3" value="diploma">DIPLOMA
+        <input type="checkbox" id="chk4" name="chk4" value="hsc">HSC
+        <br><br> File : <input type="file" id="f" name="f">
+        <br><br>
+        <input type="button" id="btn" name="btn" value="Button">
+        <input type="submit" id="submit" name="submit" value="Submit">
+        <input type="reset" id="reset" name="reset" value="Cancel">
+
+    </form>
+</body>
+
+</html>
