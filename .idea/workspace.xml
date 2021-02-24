@@ -5,6 +5,84 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be58ba90-c82f-4c76-9f7c-fdcbb8a6b48c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Core Python/1-Introduction/Areaa_of_rectangle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core Python/1-Introduction/Ex2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core Python/1-Introduction/Function.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core Python/1-Introduction/No_Divisible_By_3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core Python/1-Introduction/OOPs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core Python/1-Introduction/area.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core Python/1-Introduction/area_of_circle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core Python/1-Introduction/areaofCircle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core Python/1-Introduction/check_divisible_3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core Python/1-Introduction/check_divisible_by_3_and_5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core Python/1-Introduction/check_maximum_of_three.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core Python/1-Introduction/check_num_divisible_7_or_3_any.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core Python/1-Introduction/check_number_is_+ve_-ve_zero.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core Python/1-Introduction/check_result.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core Python/1-Introduction/check_result_pass_fail.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core Python/1-Introduction/count_num_divisible_by_5,3_and_both_from_1to35.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core Python/1-Introduction/count_num_divisible_by_5_from_7_to_50.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core Python/1-Introduction/demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core Python/1-Introduction/divisibleby3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core Python/1-Introduction/even_odd.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core Python/1-Introduction/ex1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core Python/1-Introduction/ex3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core Python/1-Introduction/example.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core Python/1-Introduction/for_example.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core Python/1-Introduction/for_loop_addition.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core Python/1-Introduction/for_loop_extra.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core Python/1-Introduction/for_loop_multiplication.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core Python/1-Introduction/for_loop_odd_num.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core Python/1-Introduction/for_loop_pattern_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core Python/1-Introduction/for_loop_pattern_10.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core Python/1-Introduction/for_loop_pattern_11.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core Python/1-Introduction/for_loop_pattern_12.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core Python/1-Introduction/for_loop_pattern_13.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core Python/1-Introduction/for_loop_pattern_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core Python/1-Introduction/for_loop_pattern_3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core Python/1-Introduction/for_loop_pattern_4_special.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core Python/1-Introduction/for_loop_pattern_5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core Python/1-Introduction/for_loop_pattern_6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core Python/1-Introduction/for_loop_pattern_7.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core Python/1-Introduction/for_loop_pattern_8.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core Python/1-Introduction/for_loop_pattern_9.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core Python/1-Introduction/format.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core Python/1-Introduction/sub.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core Python/1-Introduction/sum_between_3_to_25_not_divisible_by_3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core Python/1-Introduction/swap2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core Python/1-Introduction/swapping.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core Python/1-Introduction/swapping_with_mul_div.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core Python/1-Introduction/swapping_without_3rd_variable.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core Python/1-Introduction/variable_data-operators.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core Python/1-Introduction/while_check_armstrong.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core Python/1-Introduction/while_check_palindrome.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core Python/1-Introduction/while_digit's_cube_addition.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core Python/1-Introduction/while_digit's_square_addition.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core Python/1-Introduction/while_digit_addition.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core Python/1-Introduction/while_digit_multiplication.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core Python/1-Introduction/while_example.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core Python/1-Introduction/while_multiplication_digit_square.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core Python/1-Introduction/while_reverse_number.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core Python/2-Conditional Statements/Conditional_Statements_and_loop.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core Python/2-Conditional Statements/Div5AND3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core Python/2-Conditional Statements/Div5OR7.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core Python/2-Conditional Statements/Div_5OR3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core Python/2-Conditional Statements/MaximunNumber.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core Python/2-Conditional Statements/Simple_Interest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core Python/2-Conditional Statements/Swapping_with_3variable.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core Python/2-Conditional Statements/Swapping_without_using_3rd_variable.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core Python/2-Conditional Statements/sub_if_else.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core Python/3-Looping/Area_of_circle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core Python/3-Looping/Loop_Patterns.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core Python/3-Looping/Marks_of_the_student.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core Python/3-Looping/Re__LoopPattern.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core Python/3-Looping/While_Loop.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core Python/3-Looping/loops.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core Python/3-Looping/nested_if_else_divisible_by_3_&amp;_5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core Python/3-Looping/nested_if_max_of_three.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core Python/Factorial_for_n_natural_number.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core Python/List.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core Python/func.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,6 +138,13 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/AlcidesTiago/Python-Programming-Django" />
+      </set>
+    </option>
+  </component>
   <component name="ProjectId" id="1mImgdKLrdZEY4gXZV4XoHayQwX" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -76,10 +161,52 @@
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Markdown" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/venv/Scripts" />
-    <property name="settings.editor.selected.configurable" value="preferences.general" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="settings.editor.splitter.proportion" value="0.25816023" />
   </component>
-  <component name="RunManager" selected="Python.importing_mymodule">
+  <component name="RunManager" selected="Python.func">
+    <configuration name="Factorial_for_n_natural_number" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python-Programming-Django" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\iAFT\Desktop\Python-Programming-Django\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Core Python" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\iAFT\Desktop\Python-Programming-Django\Core Python\Factorial_for_n_natural_number.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="List" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python-Programming-Django" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\iAFT\Desktop\Python-Programming-Django\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Core Python" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\iAFT\Desktop\Python-Programming-Django\Core Python\List.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -122,7 +249,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="importing_M_fun" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="func" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python-Programming-Django" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -130,11 +257,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="C:\Users\iAFT\Desktop\Python-Programming-Django\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Advanced Python/Modules" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Core Python" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Advanced Python/Modules/importing_M_fun.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Core Python/func.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -166,9 +293,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.func" />
+        <item itemvalue="Python.List" />
+        <item itemvalue="Python.Factorial_for_n_natural_number" />
         <item itemvalue="Python.importing_mymodule" />
         <item itemvalue="Python.class_object" />
-        <item itemvalue="Python.importing_M_fun" />
       </list>
     </recent_temporary>
   </component>
